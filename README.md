@@ -34,4 +34,19 @@ to the screen.
 
 Particle structure contains the position, scale, color and a user pointer to aditional data used for the simulation.
 
+The engine Runs in a seperate thread, so you must call CloseEngine before exiting the application if you don't
+want an awful exception at closing, also if you logic is simple you can use an usleep function to avoid overcharging
+the cpu in the particle update loop.
+
+
+##This missing and TODO
+
+* Correct resource free at CloseEngine (Maybe to create one engine and then another in the same process)
+* Verify vulkan creation algorithm in different hardware (Please submit your problems and hardware information)
+* Add mouse, keyboard callback for better interaction with simulation
+* Add save to video option (Implementing right now)
+* Change the makefile to a more neat form, maybe using CMake
+* Create an install command to move library and header to /usr/local
+* Port to Windows? Mac OS?
+
 
