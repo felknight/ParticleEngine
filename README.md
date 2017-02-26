@@ -1,7 +1,6 @@
 # ParticleEngine
 Simple to use, engine, implemented with Vulkan that renders 2D Circles of different color for simulations
 
-##Screenshot of usage:
 The red dots carry energy, the more bright the more energetic, over time the whole
 system ends up with average energy.
 
