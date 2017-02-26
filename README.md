@@ -39,7 +39,7 @@ want an awful exception at closing, also if you logic is simple you can use an u
 the cpu in the particle update loop.
 
 
-##This missing and TODO
+##Missing features and TODO
 
 * Correct resource free at CloseEngine (Maybe to create one engine and then another in the same process)
 * Verify vulkan creation algorithm in different hardware (Please submit your problems and hardware information)
