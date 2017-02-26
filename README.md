@@ -18,7 +18,7 @@ while(1)
     for (int i = 0; i < 100; i++)
     //Update particles
         p[i].x = funcx();
-        p[i].x = funcy();
+        p[i].y = funcy();
 }
 
 CloseEngine();
